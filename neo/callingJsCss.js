@@ -22,5 +22,5 @@ function loadjscssfile(filename, filetype){
 //loadjscssfile("https://url.com/.../customJavaScript.js", "js") //dynamically load and add this .js file
 
 // external CSS
-//loadjscssfile("https://url.com/.../custom_StyleSheet.css", "css") ////dynamically load and add this .css file
-loadjscssfile("https://prb404.github.io/NEO/neo/custom_StyleSheet.css", "css")
+//loadjscssfile("https://url.com/.../customStyleSheet.css", "css") ////dynamically load and add this .css file
+loadjscssfile("https://prb404.github.io/NEO/neo/customStyleSheet.css", "css")
