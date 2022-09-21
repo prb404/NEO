@@ -1,3 +1,27 @@
 body {
 	background-color: black!important ;
 }
+
+.main-inner {
+    background: black;
+}
+
+.moremenu .nav-tabs {
+    background: black;
+}
+
+.moremenu .nav-link:hover,
+.moremenu .nav-link:focus {
+  border-color: transparent;
+  background-color: black;
+}
+
+.format-tiles a.nav-link {
+    color: #00ff00;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: #78db74;
+    background-color: #1d2125;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
