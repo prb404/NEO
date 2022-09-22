@@ -61,3 +61,58 @@ a:hover {
 .format-tiles .course-content .section .activity:hover {
     background-color: #000000;
 }
+
+.format-tiles:not(.editing) .course-content .icon, .format-tiles .iconpickericons .icon, .format-site .iconpickericons .icon {
+    color: #0c8714!important;
+}
+
+.format-tiles ul.tiles .tile h3 {
+    color: #ffffff!important;
+}
+
+.format-tiles .sectiontitle h2 {
+    color: #ffffff!important;
+}
+
+.format-tiles .course-content ul.tiles .tile.tile-hidden, .format-tiles .course-content ul.tiles .tile.tile-restricted {
+    border-top-color: #0c8714!important;
+}
+
+.format-tiles ul.tiles .tile.tile-hidden:hover, .format-tiles ul.tiles .tile-restricted.tile-clickable:hover {
+    opacity: 1!important;
+}
+
+.format-tiles .section li.activity.label h1, .format-tiles .section li.activity.label h2, .format-tiles .section li.activity.label h3, .format-tiles .section li.activity.label h4 {
+    color: #00ff00;
+}
+
+.format-tiles ul.tiles .tile.selected {
+    /* border-top-color: #ED8B00!important; */
+    background-color: black!important;
+}
+
+.format-tiles .course-content ul.tiles .tile {
+    box-shadow: 2px 4px 5px 0 #0bff00!important;
+}
+
+.format-tiles li.activity.subtile .activitytitle a {
+    background-image: linear-gradient(to bottom,rgb(0 0 0) 65%,#0aff00);
+}
+
+.format-tiles li.activity.subtile {
+    background-color: #191d1d!important;
+    border: 1px solid #0c8714!important;
+    border-top: #00ff00 0.3em solid;
+}
+
+.format-tiles li.activity.subtile a:not(.dropdown-item), .format-tiles #page-content li.activity.subtile a:not(.dropdown-item) {
+    color: #ffffff;
+}
+
+.format-tiles li.activity.subtile .activitytype {
+    color: #0a6c10;
+}
+
+.format-tiles .sectiontitle::after, .format-tiles .badge-info {
+    background-color: rgb(255 0 0);
+}
