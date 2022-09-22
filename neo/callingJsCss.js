@@ -20,6 +20,7 @@ function loadjscssfile(filename, filetype){
 
 // external JS
 //loadjscssfile("https://url.com/.../customJavaScript.js", "js") //dynamically load and add this .js file
+loadjscssfile("https://cdn.logwork.com/widget/countdown.js", "js")
 
 // external CSS
 //loadjscssfile("https://url.com/.../customStyleSheet.css", "css") ////dynamically load and add this .css file
