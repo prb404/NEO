@@ -1,5 +1,6 @@
 body {
 	background-color: black!important ;
+    color: #f8f9fa;
 }
 
 .main-inner {
@@ -17,11 +18,31 @@ body {
 }
 
 .format-tiles a.nav-link {
-    color: #00ff00;
+    color: #00ff00!important;
 }
 
 .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
     color: #78db74;
+    background-color: #1d2125!important;
+    border-color: #dee2e6 #dee2e6 #78db74!important;
+}
+
+#page.drawers .main-inner {
+    background-color: #1e251d!important;
+}
+
+.secondary-navigation .navigation {
+    border-top: 1px solid #357a32!important;
+    border-bottom: 1px solid #78db74!important;
+    background-color: #000!important;
+}
+
+#region-main {
+    overflow-x: auto;
+    overflow-y: visible;
     background-color: #1d2125;
-    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.format-tiles #page .course-content ul li.section.main {
+    background-color: #000;
 }
