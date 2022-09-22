@@ -114,5 +114,17 @@ a:hover {
 }
 
 .format-tiles .sectiontitle::after, .format-tiles .badge-info {
-    background-color: rgb(255 0 0);
+    background-color: rgb(255 0 0)!important;
+}
+
+.path-mod .activity-header:not(:empty) {
+    background-color: #000000!important;
+}
+
+.path-mod .automatic-completion-conditions .badge {
+    mix-blend-mode: normal!important;
+}
+
+.countdown-timer {
+    pointer-events: none!important;
 }
