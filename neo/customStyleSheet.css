@@ -24,7 +24,6 @@ a {
 
 a:hover {
     color: #ffffff;
-    font-weight: 900;
     text-decoration: overline;
 }
 
@@ -127,4 +126,13 @@ a:hover {
 
 .countdown-timer {
     pointer-events: none!important;
+}
+
+.mb-2, .my-2 {
+    background: chartreuse;
+}
+
+.format-tiles li.activity.subtile.dimmed {
+    border-top-color: #00ff00!important;
+    border-top-width: 0.5em!important;
 }
