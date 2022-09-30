@@ -141,7 +141,19 @@ a:hover {
     background: rgb(29 33 37)!important;
 }
 
-html.h5p-iframe, html.h5p-iframe > body {
+.h5p-iframe {
     font-family: courier new!important;
     color: chartreuse!important;
+}
+
+.drawer {
+    background-color: #1e251d!important;
+}
+
+.card-body {
+    background-color: #1e251d!important;
+}
+
+section.block h5 {
+    color: #0c8714 !important;
 }
