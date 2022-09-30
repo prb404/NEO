@@ -136,3 +136,12 @@ a:hover {
     border-top-color: #00ff00!important;
     border-top-width: 0.5em!important;
 }
+
+.h5p-question {
+    background: rgb(29 33 37)!important;
+}
+
+html.h5p-iframe, html.h5p-iframe > body {
+    font-family: courier new!important;
+    color: chartreuse!important;
+}

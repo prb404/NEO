@@ -14,7 +14,7 @@ function loadjscssfile(filename, filetype){
   document.getElementsByTagName("head")[0].appendChild(fileref)
  }
  else if (typeof fileJs!="undefined"){
-  document.getElementsByTagName("head")[0].appendChild(fileJs)
+  document.getElementsByTagName("body")[0].appendChild(fileJs)
  }
 }
 
