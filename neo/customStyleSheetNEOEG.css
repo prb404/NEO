@@ -176,3 +176,15 @@ section.block h5 {
 .card-img-top {
     background-size: contain!important;
 }
+
+.block_xp-level-grid .block_xp-level-box {
+    background-color: #000000!important;
+}
+
+.table {
+    color: chartreuse!important;
+}
+
+.generaltable {
+    color: #ffffff;
+}
