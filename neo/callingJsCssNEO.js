@@ -1,4 +1,4 @@
-function loadjscssfile(filename, filetype){
+function loadjscssfileneo(filename, filetype){
  if (filetype=="js"){ //if filename is a external JavaScript file
   var fileJs=document.createElement('script')
   fileJs.setAttribute("type","text/javascript")
@@ -19,9 +19,9 @@ function loadjscssfile(filename, filetype){
 }
 
 // external JS
-//loadjscssfile("https://url.com/.../customJavaScript.js", "js") //dynamically load and add this .js file
-loadjscssfile("https://cdn.logwork.com/widget/countdown.js", "js")
+//loadjscssfileneo("https://url.com/.../customJavaScript.js", "js") //dynamically load and add this .js file
+loadjscssfileneo("https://cdn.logwork.com/widget/countdown.js", "js")
 
 // external CSS
-//loadjscssfile("https://url.com/.../customStyleSheet.css", "css") ////dynamically load and add this .css file
-loadjscssfile("https://prb404.github.io/NEO/neo/customStyleSheet.css", "css")
+//loadjscssfileneo("https://url.com/.../customStyleSheet.css", "css") ////dynamically load and add this .css file
+loadjscssfileneo("https://prb404.github.io/NEO/neo/customStyleSheetNEO.css", "css")

@@ -169,3 +169,7 @@ section.block h5 {
 .btn {
     color: #00ff00!important;
 }
+
+.fc-categorycards class {
+    background-size: contain!important;
+}
