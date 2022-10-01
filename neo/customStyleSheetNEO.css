@@ -3,15 +3,15 @@
 
     .format-tiles .course-content ul.tiles .tile,
     .format-tiles li.section:not(#section-0) .course-section-header {
-        border-top-color: rgba(234,184,25, 1);
+        border-top-color: rgba(234,184,25, 1)!important;
         border-radius: 0;
     }
     .format-tiles ul.tiles .tile {
-        border-top-color: rgba(234,184,25, 1);
+        border-top-color: rgba(234,184,25, 1)!important;
         transition: border-top-color 0s;
     }
     .format-tiles .tile-bg {
-        background-color: rgba(234,184,25, 0.05);
+        background-color: rgba(234,184,25, 0.05)!important;
     }
     .format-tiles ul.tiles .tile-clickable:hover,
     .format-tiles ul.tiles .tile_bar.clickable:hover,
@@ -25,11 +25,11 @@
     .format-tiles ul.tiles .headerabovetiles button.selected,
     .headerabovetiles button:active, .headerabovetiles button:focus,
     .format-tiles .embed_cm_modal .modal-header {
-        background-color: rgba(234,184,25, 1);
+        background-color: rgba(234,184,25, 1)!important;
     }
     .format-tiles .sectiontitle::after,
     .format-tiles .badge-info {
-        background-color: rgba(234,184,25, 1);
+        background-color: rgba(234,184,25, 1)!important;
     }
     .format-tiles ul.tiles .headerabovetiles button:hover {
         border-color: #5a0cb9;
@@ -37,24 +37,24 @@
 
     .format-tiles .course-content .single-section .navigation-arrows .navigation-arrow:hover,
     .format-tiles .embed_cm_modal .embed_file_button:hover {
-        background-color: rgba(234,184,25, 0.1);
+        background-color: rgba(234,184,25, 0.1)!important;
     }
 
     /*boost theme item selected in left hand menu*/
     .format-tiles .filterbutton:hover,
     .sectionbutton:hover {
-        background-color: rgba(234,184,25, 0.1);
+        background-color: rgba(234,184,25, 0.1)!important;
     }
 
     .format-tiles .filterbutton.selected{
-        background-color: rgba(234,184,25, 0.1);
+        background-color: rgba(234,184,25, 0.1)!important;
     }
 
     .format-tiles button.tiles-top-button:hover {
-        background-color: rgba(234,184,25, 0.1);
+        background-color: rgba(234,184,25, 0.1)!important;
     }
     .format-tiles .background-course-base {
-        background-color: rgba(234,184,25, 1);
+        background-color: rgba(234,184,25, 1)!important;
     }
         .format-tiles .course-content li.activity.label h1,
         .format-tiles .course-content .section li.activity.label h2,
@@ -64,19 +64,19 @@
         .format-tiles .editor_atto_content_wrap h2,
         .format-tiles .editor_atto_content_wrap h3,
         .format-tiles .editor_atto_content_wrap h4 {
-            border-left-color: rgba(234,184,25, 1);
+            border-left-color: rgba(234,184,25, 1)!important;
         }
 
         .format-tiles .course-content ul.tiles .tile.phototile .photo-tile-text h3 {
-            background-color: rgba(234,184,25, 1);
+            background-color: rgba(234,184,25, 1)!important;
         }
         .format-tiles .phototile .progress-indic,
         .format-tiles .subtile.hasphoto .activitytype,
         .format-tiles.editing .subtile.hasphoto .editable-title {
-            background-color: rgba(234,184,25, 1);
+            background-color: rgba(234,184,25, 1)!important;
         }
         .format-tiles li.activity.subtile.hasphoto {
-            border-top-color: rgba(234,184,25, 1);
+            border-top-color: rgba(234,184,25, 1)!important;
         }
 
 /* filter codes --> containing the background */
