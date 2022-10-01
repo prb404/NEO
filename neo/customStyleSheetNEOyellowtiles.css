@@ -85,20 +85,6 @@
     background-size: contain!important;
 }
 
-/* filter codes --> styling teamcards for présentation */
-
-.userpicture .img-thumbnail .rounded-circle {
-    margin-right: 0.25rem!important;
-    border: 2px solid #fff!important;
-    border-radius: 50%!important;
-    width: 50;
-    height: 50;
-}
-
-{
-    margin-top: 0 !important;
-    /* margin-bottom: 0.5rem !important; */
-    font-weight: 400 !important;
-    /* color: #1d1d1d !important; */
-    font-family: 'Titillium Web', sans-serif !important;
+.card-img-top {
+    background-size: contain!important;
 }

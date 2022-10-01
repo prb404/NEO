@@ -173,3 +173,6 @@ section.block h5 {
 .fc-categorycards class {
     background-size: contain!important;
 }
+.card-img-top {
+    background-size: contain!important;
+}
