@@ -1,5 +1,9 @@
 /* tiles --> color palette correction */
 
+    .format-tiles li.activity.subtile .activityname h4 {
+    font-size: 1em;
+    font-weight: bold!important;
+    }
 
     .format-tiles .course-content ul.tiles .tile,
     .format-tiles li.section:not(#section-0) .course-section-header {

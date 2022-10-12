@@ -4,6 +4,11 @@
 
 /* filter codes --> containing the background */
 
+    .format-tiles li.activity.subtile .activityname h4 {
+    font-size: 1em;
+    font-weight: bold!important;
+    }
+
 .fc-categorycards {
     background-size: contain!important;
 }
