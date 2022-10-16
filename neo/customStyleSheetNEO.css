@@ -16,3 +16,11 @@
 .card-img-top {
     background-size: contain!important;
 }
+
+.block_completion_progress .progressBarCell.futureNotCompleted {
+    background-color: #5a0cb9!important;
+}
+
+.block_completion_progress .progressBarCell.completed {
+    background-color: #00ff00!important;
+}
