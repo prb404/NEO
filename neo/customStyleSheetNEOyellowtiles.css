@@ -16,7 +16,7 @@
     border-left-color: #eab819!important;
 }
 
-.progress-indic {
+.format-tiles .phototile .progress-indic, .format-tiles .subtile.hasphoto .activitytype, .format-tiles.editing .subtile.hasphoto .editable-title {
     background-color: rgba(234, 184, 25, 1);
 }
 
