@@ -6,11 +6,14 @@
     }
 
 .format-tiles .course-content ul.tiles .tile, .format-tiles li.section:not(#section-0) .course-section-header {
-    border-top-color: #eab819;
+    border-top-color: #eab819!important;
     border-radius: 0;
 }
 .format-tiles .sectiontitle::after, .format-tiles .badge-info {
-    background-color: #eab819;
+    background-color: #eab819!important;
+}
+.format-tiles .course-content li.activity.label h1, .format-tiles .course-content .section li.activity.label h2, .format-tiles .course-content li.activity.label h3, .format-tiles .course-content li.activity.label h4, .format-tiles .editor_atto_content_wrap h1, .format-tiles .editor_atto_content_wrap h2, .format-tiles .editor_atto_content_wrap h3, .format-tiles .editor_atto_content_wrap h4 {
+    border-left-color: #eab819!important;
 }
 
 /* filter codes --> containing the background */
