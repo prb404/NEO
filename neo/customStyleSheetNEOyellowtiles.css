@@ -16,6 +16,10 @@
     border-left-color: #eab819!important;
 }
 
+.progress-indic {
+    background-color: rgba(234, 184, 25, 1);
+}
+
 /* filter codes --> containing the background */
 
 .fc-categorycards {
