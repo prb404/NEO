@@ -196,3 +196,12 @@ section.block h5 {
 .block_completion_progress .progressBarCell.completed {
     background-color: #00ff00!important;
 }
+
+.tag_cloud {
+    text-align: center;
+    background-color: #343a40;
+}
+
+.tag_cloud a {
+    color: white;
+}
