@@ -1,16 +1,28 @@
 body {
-  background: linear-gradient(300deg,#ff6400,#15781a,#4472c4,#df2728,#e82584,#5a0cb9);
-  background-size: 360% 360%;
-  animation: gradient-animation 60s ease infinite;
+  background: linear-gradient(300deg,#5a0cb9,#345997);
+  background-size: 120% 120%;
+  animation: gradient-animation-purple-to-blue 20s ease infinite;
+}
+
+@keyframes gradient-animation-purple-to-blue {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .drawer {
   background: linear-gradient(300deg,#ff6400,#15781a,#4472c4,#df2728,#e82584,#5a0cb9);
   background-size: 360% 360%;
-  animation: gradient-animation 60s ease infinite;
+  animation: gradient-animation-orange-green-blue-red-pink-purple 60s ease infinite;
 }
 
-@keyframes gradient-animation {
+@keyframes gradient-animation-orange-green-blue-red-pink-purple {
   0% {
     background-position: 0% 50%;
   }
