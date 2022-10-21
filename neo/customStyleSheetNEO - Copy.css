@@ -1,0 +1,52 @@
+body {
+  background: linear-gradient(300deg,#ff6400,#15781a,#4472c4,#df2728,#e82584,#5a0cb9);
+  background-size: 360% 360%;
+  animation: gradient-animation 60s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+/* tiles --> color palette correction */
+
+/* seeking solution */
+
+/* filter codes --> containing the background */
+
+    .format-tiles li.activity.subtile .activityname h4 {
+    font-size: 1em;
+    font-weight: bold!important;
+    }
+
+.fc-categorycards {
+    background-size: contain!important;
+}
+
+.card-img-top {
+    background-size: contain!important;
+}
+
+.block_completion_progress .progressBarCell.futureNotCompleted {
+    background-color: #5a0cb9!important;
+}
+
+.block_completion_progress .progressBarCell.completed {
+    background-color: #00ff00!important;
+}
+
+.tag_cloud {
+    text-align: center;
+    background-color: #343a40;
+}
+
+.tag_cloud a {
+    color: white;
+}
