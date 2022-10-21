@@ -4,6 +4,12 @@ body {
   animation: gradient-animation 60s ease infinite;
 }
 
+.drawer {
+  background: linear-gradient(300deg,#ff6400,#15781a,#4472c4,#df2728,#e82584,#5a0cb9);
+  background-size: 360% 360%;
+  animation: gradient-animation 60s ease infinite;
+}
+
 @keyframes gradient-animation {
   0% {
     background-position: 0% 50%;
