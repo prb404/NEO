@@ -1,4 +1,4 @@
-#page.drawers .main-inner {
+#region-main {
   background: linear-gradient(300deg,#5a0cb9,#345997);
   background-size: 120% 120%;
   animation: gradient-animation-purple-to-blue 20s ease infinite;
